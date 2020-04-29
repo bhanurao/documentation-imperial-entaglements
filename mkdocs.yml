@@ -1,0 +1,38 @@
+# Project information
+site_name: Documentation
+site_description: A documentation site for the  for Imperial Entanglements
+site_author: Warwick University
+site_url: https://documentation.imperial.entanglements/
+
+# Repository
+repo_name: documentation-imperial-entaglements
+repo_url: https://github.com/bhanurao/documentation-imperial-entaglements
+
+# Copyright
+copyright: 'Warwick University'
+
+# Theme directory
+# Configuration
+theme:
+  name: readthedocs
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  feature:
+    tabs: false
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/images/favicon.png
+  logo:
+    icon: "\uE80C"
+nav:
+    - Home: index.md
+    - About: about.md
